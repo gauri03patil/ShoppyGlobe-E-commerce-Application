@@ -1,12 +1,46 @@
-# React + Vite
+# 🛒 ShoppyGlobe – React E-commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a basic yet fully functional e-commerce web application built using **React**, **Redux**, and **React Router**. The application fetches product data from an external API and provides features like product browsing, searching, viewing product details, and managing a shopping cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Browse Products** – View a list of products fetched from `https://dummyjson.com/products`.
+- 🛒 **Add to Cart** – Add and manage products in your cart.
+- 📄 **Product Details** – View detailed information about individual products.
+- 🔍 **Search Functionality** – Search products dynamically.
+- 🧾 **Cart Page** – View and update quantities or remove products from the cart.
+- ⚠️ **404 Not Found Page** – Displays for unknown routes.
+- 🧠 **State Management with Redux** – Cart functionality managed through Redux store.
+- ⚙️ **Routing** – Implemented using `react-router-dom`.
+- ⚡ **Performance** – Code splitting and lazy loading with `React.lazy` and `Suspense`.
+- 💡 **Reusable Components** – Functional components using props and prop types.
+- 🎨 **Responsive Design** – Works well on all screen sizes using custom CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Prerequisites
+Make sure you have the following installed:
+
+- Node.js (v16 or higher recommended)
+- npm or yarn package manager
+
+steps:
+1) Install dependencies
+         npm install
+        # or using yarn
+          yarn install
+
+2) Run the application
+          npm run dev
+        # or using yarn
+         yarn dev
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/gauri03patil/ShoppyGlobe-E-commerce-Application.git
+
+
+## 🔗 Live Demo
+👉 [Click here to view the app] ()
