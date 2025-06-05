@@ -19,6 +19,10 @@ ShoppyGlobe is a basic yet fully functional e-commerce web application built usi
 - 🎨 **Responsive Design** – Works well on all screen sizes using custom CSS.
 
 
+## Project Upload Note
+
+"Removed node_modules folder to reduce project size under 40MB before uploading."
+
 ## Prerequisites
 Make sure you have the following installed:
 
